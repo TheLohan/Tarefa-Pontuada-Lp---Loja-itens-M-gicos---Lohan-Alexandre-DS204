@@ -82,11 +82,16 @@ namespace Loja_Itens_Magicos
                     itemVendido.Quantidade = 1;
                     List<Item> listaTemp = new List<Item>();
 
-                    if (aventureiro.Inventario.Count == 0)
+                    if (aventureiro.Inventario.Count == 0 && item.Preco < aventureiro.Ouro)
                     {
                         aventureiro.Inventario.Add(itemVendido);
+                        aventureiro.Ouro -= item.Preco;
                     }
-                    else
+                    else if(aventureiro.Inventario.Count != 0 && item.Preco > aventureiro.Ouro)
+                    {
+                        Console.WriteLine("Você não tem ouro suficiente, Aventureiro!\n");
+                    }
+                    else if(aventureiro.Inventario.Count != 0 && item.Preco < aventureiro.Ouro)
                     {
                         foreach (var inventario in aventureiro.Inventario)
                         {
@@ -104,10 +109,10 @@ namespace Loja_Itens_Magicos
                         {
                             aventureiro.Inventario.Add(itemTemp);
                         }
-                    }
-
-                    aventureiro.Ouro -= item.Preco;
-                    Console.WriteLine("Item Vendido\n");
+                        aventureiro.Ouro -= item.Preco;
+                        Console.WriteLine("Item Vendido\n");
+                    }                                    
+                                   
                 }
             }
         
