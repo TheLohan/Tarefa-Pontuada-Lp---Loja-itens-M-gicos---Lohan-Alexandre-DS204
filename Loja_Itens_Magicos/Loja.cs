@@ -42,6 +42,13 @@ namespace Loja_Itens_Magicos
             return estoque;
         }
 
+        public static int VerificarQuantidade()
+        {
+            Console.WriteLine("Quantos vai querer, Aventureiro!");
+            return int.Parse(Console.ReadLine());
+        }
+
+
         public void ApresentarCatalogo()
         {
             Console.Clear();
@@ -66,52 +73,56 @@ namespace Loja_Itens_Magicos
         {     
             if(Catalogo.TryGetValue(carrinho, out Item item))
             {
-                if (item.Quantidade == 0)
+                int quantidade; 
+                if (item.Quantidade <= 1)
                 {
                     Console.WriteLine("Mercante: Infelizmente não tenho mais esse item, Aventureiro!\n");
                     Catalogo.Remove(carrinho);
                 }
                 else if(item.Quantidade > 0)
                 {
-                    item.Quantidade = item.Quantidade - 1;
-                    Item itemVendido = new Item();
-                    itemVendido.Nome = item.Nome;
-                    itemVendido.Preco = item.Preco;
-                    itemVendido.Categoria = item.Categoria;
-                    itemVendido.Descricao = item.Descricao;
-                    itemVendido.Quantidade = 1;
+                    quantidade = VerificarQuantidade();
                     List<Item> listaTemp = new List<Item>();
-
-                    if (aventureiro.Inventario.Count == 0 && item.Preco < aventureiro.Ouro)
+                    if (quantidade > item.Quantidade)
                     {
-                        aventureiro.Inventario.Add(itemVendido);
-                        aventureiro.Ouro -= item.Preco;
+                        Console.WriteLine("Não tenho isso tudo, Aventureiro!\n");
                     }
-                    else if(aventureiro.Inventario.Count != 0 && item.Preco > aventureiro.Ouro)
+                    else
                     {
-                        Console.WriteLine("Você não tem ouro suficiente, Aventureiro!\n");
-                    }
-                    else if(aventureiro.Inventario.Count != 0 && item.Preco < aventureiro.Ouro)
-                    {
-                        foreach (var inventario in aventureiro.Inventario)
+                        item.Quantidade = item.Quantidade - quantidade;
+                        if (aventureiro.Inventario.Count == 0 && item.Preco < aventureiro.Ouro)
                         {
-                            if (inventario.Nome == itemVendido.Nome)
+                            aventureiro.Inventario.Add(Item.CopiaItem(item, quantidade));
+                            Console.WriteLine("Item Vendido!\n");
+                            aventureiro.Ouro -= item.Preco * quantidade;
+                        }
+                        else if (aventureiro.Inventario.Count != 0 && item.Preco > aventureiro.Ouro)
+                        {
+                            Console.WriteLine("Você não tem ouro suficiente, Aventureiro!\n");
+                        }
+                        else if (aventureiro.Inventario.Count != 0 && item.Preco < aventureiro.Ouro)
+                        {
+                            foreach (var inventario in aventureiro.Inventario)
                             {
-                                inventario.Quantidade += 1;
-                            }
-                            else
-                            {
-                                listaTemp.Add(itemVendido);
+                                if (inventario.Nome == item.Nome)
+                                {
+                                    inventario.Quantidade += 1*quantidade;
+                                }
+                                else
+                                {
+                                    listaTemp.Add(Item.CopiaItem(item, quantidade));
 
+                                }
                             }
+                            foreach (var itemTemp in listaTemp)
+                            {
+                                aventureiro.Inventario.Add(itemTemp);
+                            }
+                            aventureiro.Ouro -= item.Preco*quantidade;
+                            Console.WriteLine("Item Vendido\n");
                         }
-                        foreach(var itemTemp in listaTemp)
-                        {
-                            aventureiro.Inventario.Add(itemTemp);
-                        }
-                        aventureiro.Ouro -= item.Preco;
-                        Console.WriteLine("Item Vendido\n");
-                    }                                    
+
+                    } 
                                    
                 }
             }

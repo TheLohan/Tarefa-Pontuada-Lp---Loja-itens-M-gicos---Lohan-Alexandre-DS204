@@ -28,5 +28,17 @@ namespace Loja_Itens_Magicos
             return item;
 
         }
+
+        public static Item CopiaItem(Item itemCopia, int quantidade)
+        {
+            Item itemVendido = new Item();
+            itemVendido.Nome = itemCopia.Nome;
+            itemVendido.Preco = itemCopia.Preco;
+            itemVendido.Categoria = itemCopia.Categoria;
+            itemVendido.Descricao = itemCopia.Descricao;
+            itemVendido.Quantidade = quantidade;
+
+            return itemVendido;
+        }
     }
 }

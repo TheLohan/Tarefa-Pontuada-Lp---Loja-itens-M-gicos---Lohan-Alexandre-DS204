@@ -11,3 +11,16 @@ C:\Users\Lohan\Desktop\Escola\LP\Trabalho Pontuado 2\Loja_Itens_Magicos\obj\Debu
 C:\Users\Lohan\Desktop\Escola\LP\Trabalho Pontuado 2\Loja_Itens_Magicos\obj\Debug\netcoreapp3.1\Loja_Itens_Magicos.dll
 C:\Users\Lohan\Desktop\Escola\LP\Trabalho Pontuado 2\Loja_Itens_Magicos\obj\Debug\netcoreapp3.1\Loja_Itens_Magicos.pdb
 C:\Users\Lohan\Desktop\Escola\LP\Trabalho Pontuado 2\Loja_Itens_Magicos\obj\Debug\netcoreapp3.1\Loja_Itens_Magicos.genruntimeconfig.cache
+C:\Users\Lohan\Desktop\Escola\LP\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\Loja_Itens_Magicos\bin\Debug\netcoreapp3.1\Loja_Itens_Magicos.exe
+C:\Users\Lohan\Desktop\Escola\LP\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\Loja_Itens_Magicos\bin\Debug\netcoreapp3.1\Loja_Itens_Magicos.deps.json
+C:\Users\Lohan\Desktop\Escola\LP\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\Loja_Itens_Magicos\bin\Debug\netcoreapp3.1\Loja_Itens_Magicos.runtimeconfig.json
+C:\Users\Lohan\Desktop\Escola\LP\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\Loja_Itens_Magicos\bin\Debug\netcoreapp3.1\Loja_Itens_Magicos.runtimeconfig.dev.json
+C:\Users\Lohan\Desktop\Escola\LP\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\Loja_Itens_Magicos\bin\Debug\netcoreapp3.1\Loja_Itens_Magicos.dll
+C:\Users\Lohan\Desktop\Escola\LP\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\Loja_Itens_Magicos\bin\Debug\netcoreapp3.1\Loja_Itens_Magicos.pdb
+C:\Users\Lohan\Desktop\Escola\LP\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\Loja_Itens_Magicos\obj\Debug\netcoreapp3.1\Loja_Itens_Magicos.csprojAssemblyReference.cache
+C:\Users\Lohan\Desktop\Escola\LP\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\Loja_Itens_Magicos\obj\Debug\netcoreapp3.1\Loja_Itens_Magicos.AssemblyInfoInputs.cache
+C:\Users\Lohan\Desktop\Escola\LP\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\Loja_Itens_Magicos\obj\Debug\netcoreapp3.1\Loja_Itens_Magicos.AssemblyInfo.cs
+C:\Users\Lohan\Desktop\Escola\LP\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\Loja_Itens_Magicos\obj\Debug\netcoreapp3.1\Loja_Itens_Magicos.csproj.CoreCompileInputs.cache
+C:\Users\Lohan\Desktop\Escola\LP\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\Loja_Itens_Magicos\obj\Debug\netcoreapp3.1\Loja_Itens_Magicos.dll
+C:\Users\Lohan\Desktop\Escola\LP\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\Loja_Itens_Magicos\obj\Debug\netcoreapp3.1\Loja_Itens_Magicos.pdb
+C:\Users\Lohan\Desktop\Escola\LP\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\Loja_Itens_Magicos\obj\Debug\netcoreapp3.1\Loja_Itens_Magicos.genruntimeconfig.cache

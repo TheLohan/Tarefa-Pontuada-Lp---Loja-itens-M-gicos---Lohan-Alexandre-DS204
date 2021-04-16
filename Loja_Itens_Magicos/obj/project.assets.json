@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lohan\\Desktop\\Escola\\LP\\Trabalho Pontuado 2\\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\\Loja_Itens_Magicos\\Loja_Itens_Magicos.csproj",
+      "projectUniqueName": "C:\\Users\\Lohan\\Desktop\\Escola\\LP\\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\\Loja_Itens_Magicos\\Loja_Itens_Magicos.csproj",
       "projectName": "Loja_Itens_Magicos",
-      "projectPath": "C:\\Users\\Lohan\\Desktop\\Escola\\LP\\Trabalho Pontuado 2\\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\\Loja_Itens_Magicos\\Loja_Itens_Magicos.csproj",
+      "projectPath": "C:\\Users\\Lohan\\Desktop\\Escola\\LP\\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\\Loja_Itens_Magicos\\Loja_Itens_Magicos.csproj",
       "packagesPath": "C:\\Users\\Lohan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lohan\\Desktop\\Escola\\LP\\Trabalho Pontuado 2\\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\\Loja_Itens_Magicos\\obj\\",
+      "outputPath": "C:\\Users\\Lohan\\Desktop\\Escola\\LP\\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\\Loja_Itens_Magicos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
