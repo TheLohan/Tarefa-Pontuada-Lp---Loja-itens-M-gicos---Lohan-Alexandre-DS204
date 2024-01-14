@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BnTerckx4RfjziEm3q6nf6fUtqGmx4a1ycgWQ5DrEjjs6wZrrRmRH7otbEFgj9BtlhjPeS7IJirodqNUoMzDKQ==",
+  "dgSpecHash": "Fe/E0kJOGRF8ehyZX9yIFs514LAnp2zh9r0GIm9L84mH4rspsj2afXa/LCsdNtuvKsIAwS/qImYgjseAtkxf+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lohan\\Desktop\\Escola\\LP\\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204-main\\Loja_Itens_Magicos\\Loja_Itens_Magicos.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\lohan\\RiderProjects\\Tarefa-Pontuada-Lp-Loja-itens-Magicos-Lohan-Alexandre-DS204\\Loja_Itens_Magicos\\Loja_Itens_Magicos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lohan\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\lohan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\lohan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\lohan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }
